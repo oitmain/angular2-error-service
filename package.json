@@ -1,0 +1,34 @@
+{
+  "name": "@oitmain/angular2-error-service",
+  "version": "0.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rimraf ./dist ./compiled && mkdir dist",
+    "build": "ngc -p ./tsconfig.json && tsc -p ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oitmain/angular2-error-service.git"
+  },
+  "author": "Oitmain, Inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oitmain/angular2-error-service/issues"
+  },
+  "homepage": "https://github.com/oitmain/angular2-error-service#readme",
+  "peerDependencies": {},
+  "devDependencies": {},
+  "dependencies": {
+    "@angular/common": "2.4.5",
+    "@angular/compiler": "^2.4.5",
+    "@angular/compiler-cli": "^2.4.5",
+    "@angular/core": "^2.4.5",
+    "@angular/platform-browser": "2.4.5",
+    "@angular/platform-server": "^2.4.5",
+    "rimraf": "2.5.4",
+    "rxjs": "^5.0.3",
+    "typescript": "2.0.10"
+  }
+}
